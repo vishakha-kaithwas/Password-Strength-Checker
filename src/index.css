@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-neutral-900 text-white min-h-screen flex items-center justify-center font-sans;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 4s linear infinite;
+}
+
+.page-enter {
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 400ms ease, transform 400ms ease;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 400ms ease, transform 400ms ease;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  background-color: #000;
+}
+
+body {
+  background: radial-gradient(circle at top, #050011, #000);
+  color: #fff;
+  font-family: "Orbitron", sans-serif;
+  overflow-x: hidden;
+}
+
+.glow-border {
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.3), inset 0 0 10px rgba(168, 85, 247, 0.2);
+}
+
+.holo-card {
+  backdrop-filter: blur(25px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(10, 10, 25, 0.6);
+  border-radius: 1.5rem;
+  box-shadow: 0 0 40px rgba(138, 43, 226, 0.2);
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.05); }
+}
+
+.pulse { animation: pulse 2s infinite ease-in-out; }
