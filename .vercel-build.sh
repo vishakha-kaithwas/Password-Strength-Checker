@@ -1,9 +1,11 @@
 #!/bin/bash
-# Clean install all dependencies
+set -e
+
+# Reinstall dependencies cleanly
 npm ci
 
-# Fix permissions for vite (this line solves your issue)
+# Fix vite file permissions (main issue)
 chmod +x ./node_modules/.bin/vite
 
-# Build your app
+# Build the project
 npm run build
