@@ -1,11 +1,8 @@
 #!/bin/bash
 set -e
 
-# Reinstall dependencies cleanly
-npm ci
-
-# Fix vite file permissions (main issue)
+# Fix permission issue for vite binary
 chmod +x ./node_modules/.bin/vite
 
-# Build the project
+# Run normal build
 npm run build
