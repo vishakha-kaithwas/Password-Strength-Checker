@@ -1,16 +1,55 @@
-# React + Vite
+# 🛡️ PassShield — Next-Gen Password Security Companion  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![PassShield Banner](https://img.shields.io/badge/PassShield-AI%20Password%20System-purple?style=for-the-badge&logo=react)
+![Built with React](https://img.shields.io/badge/Built%20With-React%20%2B%20Vite-blue?style=for-the-badge&logo=react)
+![TailwindCSS](https://img.shields.io/badge/Styled%20With-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💬 Overview  
 
-## React Compiler
+**PassShield** is a futuristic, AI-inspired password security web app built with **React**, **Vite**, and **TailwindCSS**.  
+It helps users **generate**, **analyze**, and **validate** passwords with stunning animations, real-time analysis, and an assistant called _PassShield AI_.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ **AI Password Generator** — Creates ultra-secure passwords based on user input.  
+✅ **Password Strength Analyzer** — Calculates entropy, crack time, and strength grade.  
+✅ **Breach Checker** — Detects if your password has appeared in known data leaks.  
+✅ **Interactive Assistant** — Smart tooltips powered by _PassShield AI_ for real-time suggestions.  
+✅ **Modern, Animated UI** — Smooth transitions with _Framer Motion_ and neon-glow gradients.  
+
+---
+
+## 🧩 Tech Stack  
+
+| Technology | Purpose |
+|-------------|----------|
+| ⚛️ React 18 | UI Components & Routing |
+| ⚡ Vite | Lightning-fast build tool |
+| 🎨 Tailwind CSS | Styling & Utility Classes |
+| 🧠 Framer Motion | Animations |
+| 🧩 React Router DOM | Navigation |
+| 🎵 use-sound | Click feedbacks |
+| 🧮 js-sha1 | Hashing utilities |
+| 🧿 Lucide React | Modern icon set |
+
+---
+
+## ⚙️ Installation  
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/vishakha-kaithwas/Password-Strength-Checker.git
+
+# 2️⃣ Move into project folder
+cd Password-Strength-Checker
+
+# 3️⃣ Install all dependencies
+npm install
+
+# 4️⃣ Run the development server
+npm run dev
